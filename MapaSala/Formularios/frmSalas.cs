@@ -103,5 +103,10 @@ namespace MapaSala.Formularios
         {
             dtGridSalas.DataSource = dao.Pesquisar(txtPesquisa.Text);
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
