@@ -102,10 +102,10 @@ namespace MapaSala.Formularios
             // 
             // btnSalvar
             // 
-            this.btnSalvar.Location = new System.Drawing.Point(676, 38);
+            this.btnSalvar.Location = new System.Drawing.Point(702, 38);
             this.btnSalvar.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(141, 41);
+            this.btnSalvar.Size = new System.Drawing.Size(75, 23);
             this.btnSalvar.TabIndex = 6;
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = true;
@@ -127,10 +127,10 @@ namespace MapaSala.Formularios
             // 
             // btnLimpar
             // 
-            this.btnLimpar.Location = new System.Drawing.Point(828, 40);
+            this.btnLimpar.Location = new System.Drawing.Point(789, 38);
             this.btnLimpar.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(141, 41);
+            this.btnLimpar.Size = new System.Drawing.Size(75, 23);
             this.btnLimpar.TabIndex = 8;
             this.btnLimpar.Text = "Limpar";
             this.btnLimpar.UseVisualStyleBackColor = true;
@@ -138,10 +138,10 @@ namespace MapaSala.Formularios
             // 
             // btnexcluir
             // 
-            this.btnexcluir.Location = new System.Drawing.Point(980, 38);
+            this.btnexcluir.Location = new System.Drawing.Point(873, 38);
             this.btnexcluir.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnexcluir.Name = "btnexcluir";
-            this.btnexcluir.Size = new System.Drawing.Size(124, 41);
+            this.btnexcluir.Size = new System.Drawing.Size(75, 23);
             this.btnexcluir.TabIndex = 9;
             this.btnexcluir.Text = "Excluir";
             this.btnexcluir.UseVisualStyleBackColor = true;
@@ -150,10 +150,10 @@ namespace MapaSala.Formularios
             // btneditar
             // 
             this.btneditar.Font = new System.Drawing.Font("Microsoft JhengHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btneditar.Location = new System.Drawing.Point(1112, 38);
+            this.btneditar.Location = new System.Drawing.Point(789, 82);
             this.btneditar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btneditar.Name = "btneditar";
-            this.btneditar.Size = new System.Drawing.Size(116, 41);
+            this.btneditar.Size = new System.Drawing.Size(75, 23);
             this.btneditar.TabIndex = 10;
             this.btneditar.Text = "Editar";
             this.btneditar.UseVisualStyleBackColor = true;

@@ -128,7 +128,7 @@ namespace MapaSala.Formularios
             this.btnSalvar.Location = new System.Drawing.Point(862, 34);
             this.btnSalvar.Margin = new System.Windows.Forms.Padding(5);
             this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(96, 27);
+            this.btnSalvar.Size = new System.Drawing.Size(75, 23);
             this.btnSalvar.TabIndex = 10;
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.UseVisualStyleBackColor = false;
@@ -177,7 +177,7 @@ namespace MapaSala.Formularios
             this.btneditar.Location = new System.Drawing.Point(989, 71);
             this.btneditar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btneditar.Name = "btneditar";
-            this.btneditar.Size = new System.Drawing.Size(110, 28);
+            this.btneditar.Size = new System.Drawing.Size(75, 23);
             this.btneditar.TabIndex = 17;
             this.btneditar.Text = "Editar";
             this.btneditar.UseVisualStyleBackColor = false;
@@ -189,7 +189,7 @@ namespace MapaSala.Formularios
             this.btnexcluir.Location = new System.Drawing.Point(989, 32);
             this.btnexcluir.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnexcluir.Name = "btnexcluir";
-            this.btnexcluir.Size = new System.Drawing.Size(110, 25);
+            this.btnexcluir.Size = new System.Drawing.Size(75, 23);
             this.btnexcluir.TabIndex = 16;
             this.btnexcluir.Text = "Excluir";
             this.btnexcluir.UseVisualStyleBackColor = false;
@@ -201,7 +201,7 @@ namespace MapaSala.Formularios
             this.btnLimpar.Location = new System.Drawing.Point(862, 71);
             this.btnLimpar.Margin = new System.Windows.Forms.Padding(5);
             this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(96, 28);
+            this.btnLimpar.Size = new System.Drawing.Size(75, 23);
             this.btnLimpar.TabIndex = 15;
             this.btnLimpar.Text = "Limpar";
             this.btnLimpar.UseVisualStyleBackColor = false;
