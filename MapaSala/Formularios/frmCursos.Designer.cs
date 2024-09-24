@@ -52,7 +52,7 @@ namespace MapaSala.Formularios
             // btneditar
             // 
             this.btneditar.BackColor = System.Drawing.Color.LavenderBlush;
-            this.btneditar.Font = new System.Drawing.Font("Microsoft JhengHei", 9.5F);
+            this.btneditar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.btneditar.Location = new System.Drawing.Point(804, 110);
             this.btneditar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btneditar.Name = "btneditar";
@@ -65,6 +65,7 @@ namespace MapaSala.Formularios
             // btnexcluir
             // 
             this.btnexcluir.BackColor = System.Drawing.Color.LavenderBlush;
+            this.btnexcluir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.btnexcluir.Location = new System.Drawing.Point(939, 67);
             this.btnexcluir.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnexcluir.Name = "btnexcluir";
@@ -77,6 +78,7 @@ namespace MapaSala.Formularios
             // btnLimpar
             // 
             this.btnLimpar.BackColor = System.Drawing.Color.LavenderBlush;
+            this.btnLimpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.btnLimpar.Location = new System.Drawing.Point(804, 67);
             this.btnLimpar.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.btnLimpar.Name = "btnLimpar";
@@ -102,6 +104,7 @@ namespace MapaSala.Formularios
             // btnSalvar
             // 
             this.btnSalvar.BackColor = System.Drawing.Color.LavenderBlush;
+            this.btnSalvar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.btnSalvar.Location = new System.Drawing.Point(674, 67);
             this.btnSalvar.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.btnSalvar.Name = "btnSalvar";

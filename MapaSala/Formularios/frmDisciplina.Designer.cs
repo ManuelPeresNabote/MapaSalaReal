@@ -49,6 +49,7 @@ namespace MapaSala.Formularios
             // btnSalvar
             // 
             this.btnSalvar.BackColor = System.Drawing.Color.LavenderBlush;
+            this.btnSalvar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.btnSalvar.Location = new System.Drawing.Point(629, 41);
             this.btnSalvar.Margin = new System.Windows.Forms.Padding(5);
             this.btnSalvar.Name = "btnSalvar";
@@ -60,47 +61,50 @@ namespace MapaSala.Formularios
             // 
             // txtNomeDisciplina
             // 
-            this.txtNomeDisciplina.Location = new System.Drawing.Point(196, 45);
+            this.txtNomeDisciplina.Location = new System.Drawing.Point(194, 46);
             this.txtNomeDisciplina.Margin = new System.Windows.Forms.Padding(5);
             this.txtNomeDisciplina.Name = "txtNomeDisciplina";
-            this.txtNomeDisciplina.Size = new System.Drawing.Size(243, 23);
+            this.txtNomeDisciplina.Size = new System.Drawing.Size(121, 23);
             this.txtNomeDisciplina.TabIndex = 1;
             // 
             // txtSigla
             // 
-            this.txtSigla.Location = new System.Drawing.Point(451, 46);
+            this.txtSigla.Location = new System.Drawing.Point(336, 45);
             this.txtSigla.Margin = new System.Windows.Forms.Padding(5);
             this.txtSigla.Name = "txtSigla";
-            this.txtSigla.Size = new System.Drawing.Size(164, 23);
+            this.txtSigla.Size = new System.Drawing.Size(121, 23);
             this.txtSigla.TabIndex = 2;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(446, 21);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.label1.Location = new System.Drawing.Point(333, 28);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(39, 17);
+            this.label1.Size = new System.Drawing.Size(30, 13);
             this.label1.TabIndex = 3;
             this.label1.Text = "Sigla";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(191, 20);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.label2.Location = new System.Drawing.Point(191, 28);
             this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(45, 17);
+            this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 4;
             this.label2.Text = "Nome";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(21, 20);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.label3.Location = new System.Drawing.Point(21, 28);
             this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(19, 17);
+            this.label3.Size = new System.Drawing.Size(16, 13);
             this.label3.TabIndex = 5;
             this.label3.Text = "Id";
             // 
@@ -109,7 +113,7 @@ namespace MapaSala.Formularios
             this.numId.Location = new System.Drawing.Point(21, 46);
             this.numId.Margin = new System.Windows.Forms.Padding(5);
             this.numId.Name = "numId";
-            this.numId.Size = new System.Drawing.Size(165, 23);
+            this.numId.Size = new System.Drawing.Size(121, 23);
             this.numId.TabIndex = 6;
             // 
             // dtGridDisciplina
@@ -131,6 +135,7 @@ namespace MapaSala.Formularios
             // btnLimpar
             // 
             this.btnLimpar.BackColor = System.Drawing.Color.LavenderBlush;
+            this.btnLimpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.btnLimpar.Location = new System.Drawing.Point(736, 40);
             this.btnLimpar.Margin = new System.Windows.Forms.Padding(5);
             this.btnLimpar.Name = "btnLimpar";
@@ -143,6 +148,7 @@ namespace MapaSala.Formularios
             // btnExcluir
             // 
             this.btnExcluir.BackColor = System.Drawing.Color.LavenderBlush;
+            this.btnExcluir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.btnExcluir.Location = new System.Drawing.Point(846, 40);
             this.btnExcluir.Margin = new System.Windows.Forms.Padding(5);
             this.btnExcluir.Name = "btnExcluir";
@@ -155,7 +161,8 @@ namespace MapaSala.Formularios
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.LavenderBlush;
-            this.button1.Location = new System.Drawing.Point(959, 40);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.button1.Location = new System.Drawing.Point(736, 88);
             this.button1.Margin = new System.Windows.Forms.Padding(5);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
@@ -166,7 +173,7 @@ namespace MapaSala.Formularios
             // 
             // txtPesquisa
             // 
-            this.txtPesquisa.Location = new System.Drawing.Point(86, 114);
+            this.txtPesquisa.Location = new System.Drawing.Point(24, 114);
             this.txtPesquisa.Name = "txtPesquisa";
             this.txtPesquisa.Size = new System.Drawing.Size(207, 23);
             this.txtPesquisa.TabIndex = 11;
@@ -175,9 +182,10 @@ namespace MapaSala.Formularios
             // lblPesquisa
             // 
             this.lblPesquisa.AutoSize = true;
-            this.lblPesquisa.Location = new System.Drawing.Point(83, 94);
+            this.lblPesquisa.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.lblPesquisa.Location = new System.Drawing.Point(23, 94);
             this.lblPesquisa.Name = "lblPesquisa";
-            this.lblPesquisa.Size = new System.Drawing.Size(76, 17);
+            this.lblPesquisa.Size = new System.Drawing.Size(56, 13);
             this.lblPesquisa.TabIndex = 12;
             this.lblPesquisa.Text = "Persquisar";
             // 
