@@ -115,6 +115,7 @@ namespace MapaSala.Formularios
             this.numId.Name = "numId";
             this.numId.Size = new System.Drawing.Size(121, 23);
             this.numId.TabIndex = 6;
+            this.numId.ValueChanged += new System.EventHandler(this.numId_ValueChanged);
             // 
             // dtGridDisciplina
             // 
@@ -131,6 +132,7 @@ namespace MapaSala.Formularios
             this.dtGridDisciplina.Size = new System.Drawing.Size(1026, 426);
             this.dtGridDisciplina.TabIndex = 7;
             this.dtGridDisciplina.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtGridDisciplina_CellClick);
+            this.dtGridDisciplina.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtGridDisciplina_CellDoubleClick);
             // 
             // btnLimpar
             // 

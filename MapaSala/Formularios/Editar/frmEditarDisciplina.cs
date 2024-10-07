@@ -30,6 +30,7 @@ namespace MapaSala.Formularios.Editar
                     label_id.Text = Leitura[0].ToString();
                     txtNomeDisciplina.Text = Leitura[1].ToString();
                     txtSigla.Text = Leitura[2].ToString();
+                    chkAtivo.Checked = Convert.ToBoolean(Leitura[3]);
                     
                 }
             }
