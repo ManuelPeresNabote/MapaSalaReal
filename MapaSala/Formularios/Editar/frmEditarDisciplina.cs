@@ -27,7 +27,7 @@ namespace MapaSala.Formularios.Editar
             {
                 while (Leitura.Read())
                 {
-                    Convert.ToInt32(Leitura[0]);
+                    label_id.Text = Leitura[0].ToString();
                     Leitura[1].ToString();
                     Leitura[2].ToString();
                     

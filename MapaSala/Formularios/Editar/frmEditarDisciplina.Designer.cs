@@ -35,12 +35,13 @@ namespace MapaSala.Formularios.Editar
             this.txtNomeDisciplina = new System.Windows.Forms.TextBox();
             this.txtSigla = new System.Windows.Forms.TextBox();
             this.bttSalvar = new System.Windows.Forms.Button();
+            this.label_id = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lbNomeDisciplina
             // 
             this.lbNomeDisciplina.AutoSize = true;
-            this.lbNomeDisciplina.Location = new System.Drawing.Point(23, 42);
+            this.lbNomeDisciplina.Location = new System.Drawing.Point(23, 88);
             this.lbNomeDisciplina.Name = "lbNomeDisciplina";
             this.lbNomeDisciplina.Size = new System.Drawing.Size(98, 13);
             this.lbNomeDisciplina.TabIndex = 0;
@@ -49,7 +50,7 @@ namespace MapaSala.Formularios.Editar
             // lbSigla
             // 
             this.lbSigla.AutoSize = true;
-            this.lbSigla.Location = new System.Drawing.Point(23, 110);
+            this.lbSigla.Location = new System.Drawing.Point(23, 156);
             this.lbSigla.Name = "lbSigla";
             this.lbSigla.Size = new System.Drawing.Size(30, 13);
             this.lbSigla.TabIndex = 1;
@@ -67,14 +68,14 @@ namespace MapaSala.Formularios.Editar
             // 
             // txtNomeDisciplina
             // 
-            this.txtNomeDisciplina.Location = new System.Drawing.Point(26, 58);
+            this.txtNomeDisciplina.Location = new System.Drawing.Point(26, 104);
             this.txtNomeDisciplina.Name = "txtNomeDisciplina";
             this.txtNomeDisciplina.Size = new System.Drawing.Size(190, 20);
             this.txtNomeDisciplina.TabIndex = 3;
             // 
             // txtSigla
             // 
-            this.txtSigla.Location = new System.Drawing.Point(26, 126);
+            this.txtSigla.Location = new System.Drawing.Point(26, 172);
             this.txtSigla.Name = "txtSigla";
             this.txtSigla.Size = new System.Drawing.Size(190, 20);
             this.txtSigla.TabIndex = 4;
@@ -88,11 +89,21 @@ namespace MapaSala.Formularios.Editar
             this.bttSalvar.Text = "Salvar";
             this.bttSalvar.UseVisualStyleBackColor = true;
             // 
+            // label_id
+            // 
+            this.label_id.AutoSize = true;
+            this.label_id.Location = new System.Drawing.Point(23, 43);
+            this.label_id.Name = "label_id";
+            this.label_id.Size = new System.Drawing.Size(35, 13);
+            this.label_id.TabIndex = 6;
+            this.label_id.Text = "label1";
+            // 
             // frmEditarDisciplina
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(272, 450);
+            this.Controls.Add(this.label_id);
             this.Controls.Add(this.bttSalvar);
             this.Controls.Add(this.txtSigla);
             this.Controls.Add(this.txtNomeDisciplina);
@@ -101,7 +112,6 @@ namespace MapaSala.Formularios.Editar
             this.Controls.Add(this.lbNomeDisciplina);
             this.Name = "frmEditarDisciplina";
             this.Text = "frmEditarDisciplina";
-            this.Load += new System.EventHandler(this.frmEditarDisciplina_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -115,5 +125,6 @@ namespace MapaSala.Formularios.Editar
         private System.Windows.Forms.TextBox txtNomeDisciplina;
         private System.Windows.Forms.TextBox txtSigla;
         private System.Windows.Forms.Button bttSalvar;
+        private System.Windows.Forms.Label label_id;
     }
 }
