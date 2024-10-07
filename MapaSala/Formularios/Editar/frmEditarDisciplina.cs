@@ -28,12 +28,17 @@ namespace MapaSala.Formularios.Editar
                 while (Leitura.Read())
                 {
                     label_id.Text = Leitura[0].ToString();
-                    Leitura[1].ToString();
-                    Leitura[2].ToString();
+                    txtNomeDisciplina.Text = Leitura[1].ToString();
+                    txtSigla.Text = Leitura[2].ToString();
                     
                 }
             }
             Conexao.Close();
+        }
+
+        private void txtNomeDisciplina_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
     }

@@ -72,6 +72,7 @@ namespace MapaSala.Formularios.Editar
             this.txtNomeDisciplina.Name = "txtNomeDisciplina";
             this.txtNomeDisciplina.Size = new System.Drawing.Size(190, 20);
             this.txtNomeDisciplina.TabIndex = 3;
+            this.txtNomeDisciplina.TextChanged += new System.EventHandler(this.txtNomeDisciplina_TextChanged);
             // 
             // txtSigla
             // 
