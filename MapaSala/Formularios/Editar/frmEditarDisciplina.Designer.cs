@@ -101,6 +101,7 @@ namespace MapaSala.Formularios.Editar
             this.Controls.Add(this.lbNomeDisciplina);
             this.Name = "frmEditarDisciplina";
             this.Text = "frmEditarDisciplina";
+            this.Load += new System.EventHandler(this.frmEditarDisciplina_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
