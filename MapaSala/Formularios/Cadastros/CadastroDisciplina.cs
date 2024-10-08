@@ -19,21 +19,7 @@ namespace MapaSala.Formularios.Cadastros
         public CadastroDisciplina()
         {
             InitializeComponent();
-            string query = "select Id, Nome,Sigla,Ativo +from Disciplinas where Id=@id";
-            Conexao.Open();
-            SqlCommand Comando = new SqlCommand(query, Conexao);
-            SqlDataReader Leitura = Comando.ExecuteReader();
-            if (Leitura.HasRows)
-            {
-                while (Leitura.Read())
-                {
-                    txtNomeDisciplina.Text = Leitura[1].ToString();
-                    txtSigla.Text = Leitura[2].ToString();
-                    chkAtivo.Checked = Convert.ToBoolean(Leitura[3]);
-
-                }
-            }
-            Conexao.Close();
+            
         }
 
         private void txtNomeDisciplina_TextChanged(object sender, EventArgs e)
@@ -43,7 +29,7 @@ namespace MapaSala.Formularios.Cadastros
 
         private void bttSalvar_Click(object sender, EventArgs e)
         {
-            string query = "update Disciplinas set Nome = @nome, Sigla = @sigla, Ativo = @ativo WHERE  Id = @id";
+            string query = "insert into Disciplinas (Nome, Sigla, Ativo) Values (@nome, @sigla, @ativo)";
 
             Conexao = new SqlConnection(LinhaConexao);
             Conexao.Open();

@@ -64,6 +64,7 @@ namespace MapaSala.Formularios.Cadastros
             this.bntSalvar.TabIndex = 4;
             this.bntSalvar.Text = "Salvar";
             this.bntSalvar.UseVisualStyleBackColor = true;
+            this.bntSalvar.Click += new System.EventHandler(this.bttSalvar_Click);
             // 
             // bntExcluir
             // 

@@ -62,6 +62,7 @@ namespace MapaSala.Formularios
         private void button1_Click_1(object sender, EventArgs e)
         {
             CadastroDisciplina d = new CadastroDisciplina();
+            d.FormClosed += Fechou_Editar_FormClosed;
             d.ShowDialog();
         }
     }
