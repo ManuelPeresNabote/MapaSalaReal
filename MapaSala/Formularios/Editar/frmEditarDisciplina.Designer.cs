@@ -36,6 +36,8 @@ namespace MapaSala.Formularios.Editar
             this.txtSigla = new System.Windows.Forms.TextBox();
             this.bttSalvar = new System.Windows.Forms.Button();
             this.label_id = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lbNomeDisciplina
@@ -89,21 +91,43 @@ namespace MapaSala.Formularios.Editar
             this.bttSalvar.TabIndex = 5;
             this.bttSalvar.Text = "Salvar";
             this.bttSalvar.UseVisualStyleBackColor = true;
+            this.bttSalvar.Click += new System.EventHandler(this.bttSalvar_Click);
             // 
             // label_id
             // 
             this.label_id.AutoSize = true;
-            this.label_id.Location = new System.Drawing.Point(23, 43);
+            this.label_id.Location = new System.Drawing.Point(86, 39);
             this.label_id.Name = "label_id";
             this.label_id.Size = new System.Drawing.Size(35, 13);
             this.label_id.TabIndex = 6;
             this.label_id.Text = "label1";
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(107, 317);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 8;
+            this.button2.Text = "Excluir";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(37, 39);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(43, 13);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "Código:";
             // 
             // frmEditarDisciplina
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(272, 450);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.label_id);
             this.Controls.Add(this.bttSalvar);
             this.Controls.Add(this.txtSigla);
@@ -127,5 +151,7 @@ namespace MapaSala.Formularios.Editar
         private System.Windows.Forms.TextBox txtSigla;
         private System.Windows.Forms.Button bttSalvar;
         private System.Windows.Forms.Label label_id;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label1;
     }
 }
