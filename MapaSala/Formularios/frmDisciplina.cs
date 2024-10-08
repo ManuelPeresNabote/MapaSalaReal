@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MapaSala.DAO;
+using MapaSala.Formularios.Editar;
 using Model.Entitidades;
 
 namespace MapaSala.Formularios
@@ -103,10 +104,17 @@ namespace MapaSala.Formularios
         {
             if(e.RowIndex >= 0)
             {
-                int id = Convert.ToInt32(dtGridDisciplina);
+                int id = Convert.ToInt32(dtGridDisciplina.Rows[e.RowIndex].Cells[0].Value);
+                frmEditarDisciplina editar = new frmEditarDisciplina(id);
+                editar.FormClosed += Fechou_Editar_FormClosed;
+                editar.ShowDialog();
             }
-            frmEditarDisciplina editar = new frmEditarDisciplina();
-            editar.ShowDialog();
+            
+        }
+
+        private void Fechou_Editar_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            dtGridDisciplina.DataSource = dao.ObterDisciplinas();
         }
     }
 }
