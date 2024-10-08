@@ -98,9 +98,9 @@ namespace MapaSala.Formularios.Editar
             this.label_id.AutoSize = true;
             this.label_id.Location = new System.Drawing.Point(86, 39);
             this.label_id.Name = "label_id";
-            this.label_id.Size = new System.Drawing.Size(35, 13);
+            this.label_id.Size = new System.Drawing.Size(16, 13);
             this.label_id.TabIndex = 6;
-            this.label_id.Text = "label1";
+            this.label_id.Text = "Id";
             // 
             // button2
             // 

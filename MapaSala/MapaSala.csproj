@@ -52,6 +52,12 @@
     <Compile Include="DAO\HorarioDAO.cs" />
     <Compile Include="DAO\ProfessoresDAO.cs" />
     <Compile Include="DAO\SalasDAO.cs" />
+    <Compile Include="Formularios\Cadastros\CadastroDisciplina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Cadastros\CadastroDisciplina.Designer.cs">
+      <DependentUpon>CadastroDisciplina.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Editar\frmEditarDisciplina.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +108,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formularios\Cadastros\CadastroDisciplina.resx">
+      <DependentUpon>CadastroDisciplina.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Editar\frmEditarDisciplina.resx">
       <DependentUpon>frmEditarDisciplina.cs</DependentUpon>
     </EmbeddedResource>
