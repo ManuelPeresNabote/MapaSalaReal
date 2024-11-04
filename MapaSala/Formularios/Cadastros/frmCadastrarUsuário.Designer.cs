@@ -29,104 +29,104 @@ namespace MapaSala.Formularios.Cadastros
         /// </summary>
         private void InitializeComponent()
         {
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.gbCadastrarUsuario = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.groupBox1.SuspendLayout();
+            this.txtSenha = new System.Windows.Forms.TextBox();
+            this.bntSalvar = new System.Windows.Forms.Button();
+            this.chkAtivo = new System.Windows.Forms.CheckBox();
+            this.txtLogin = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.gbCadastrarUsuario.SuspendLayout();
             this.SuspendLayout();
             // 
-            // groupBox1
+            // gbCadastrarUsuario
             // 
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.checkBox1);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(324, 214);
-            this.groupBox1.TabIndex = 1;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 37);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(6, 53);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 1;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(6, 139);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(50, 17);
-            this.checkBox1.TabIndex = 2;
-            this.checkBox1.Text = "Ativo";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(0, 175);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Salvar";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(0, 101);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 4;
+            this.gbCadastrarUsuario.Controls.Add(this.label2);
+            this.gbCadastrarUsuario.Controls.Add(this.txtSenha);
+            this.gbCadastrarUsuario.Controls.Add(this.bntSalvar);
+            this.gbCadastrarUsuario.Controls.Add(this.chkAtivo);
+            this.gbCadastrarUsuario.Controls.Add(this.txtLogin);
+            this.gbCadastrarUsuario.Controls.Add(this.label1);
+            this.gbCadastrarUsuario.Location = new System.Drawing.Point(12, 12);
+            this.gbCadastrarUsuario.Name = "gbCadastrarUsuario";
+            this.gbCadastrarUsuario.Size = new System.Drawing.Size(324, 214);
+            this.gbCadastrarUsuario.TabIndex = 1;
+            this.gbCadastrarUsuario.TabStop = false;
+            this.gbCadastrarUsuario.Text = "Cadastrar Usuário";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(3, 85);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.Size = new System.Drawing.Size(38, 13);
             this.label2.TabIndex = 5;
-            this.label2.Text = "label2";
+            this.label2.Text = "Senha";
+            // 
+            // txtSenha
+            // 
+            this.txtSenha.Location = new System.Drawing.Point(6, 101);
+            this.txtSenha.Name = "txtSenha";
+            this.txtSenha.Size = new System.Drawing.Size(100, 20);
+            this.txtSenha.TabIndex = 4;
+            // 
+            // bntSalvar
+            // 
+            this.bntSalvar.Location = new System.Drawing.Point(0, 175);
+            this.bntSalvar.Name = "bntSalvar";
+            this.bntSalvar.Size = new System.Drawing.Size(75, 23);
+            this.bntSalvar.TabIndex = 3;
+            this.bntSalvar.Text = "Salvar";
+            this.bntSalvar.UseVisualStyleBackColor = true;
+            // 
+            // chkAtivo
+            // 
+            this.chkAtivo.AutoSize = true;
+            this.chkAtivo.Location = new System.Drawing.Point(6, 139);
+            this.chkAtivo.Name = "chkAtivo";
+            this.chkAtivo.Size = new System.Drawing.Size(50, 17);
+            this.chkAtivo.TabIndex = 2;
+            this.chkAtivo.Text = "Ativo";
+            this.chkAtivo.UseVisualStyleBackColor = true;
+            // 
+            // txtLogin
+            // 
+            this.txtLogin.Location = new System.Drawing.Point(6, 53);
+            this.txtLogin.Name = "txtLogin";
+            this.txtLogin.Size = new System.Drawing.Size(100, 20);
+            this.txtLogin.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 37);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(33, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Login";
             // 
             // frmCadastrarUsuário
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(348, 238);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.gbCadastrarUsuario);
             this.Name = "frmCadastrarUsuário";
-            this.Text = "frmCadastrar";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.Text = "Novo Cadastro";
+            this.gbCadastrarUsuario.ResumeLayout(false);
+            this.gbCadastrarUsuario.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox gbCadastrarUsuario;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtSenha;
+        private System.Windows.Forms.Button bntSalvar;
+        private System.Windows.Forms.CheckBox chkAtivo;
+        private System.Windows.Forms.TextBox txtLogin;
         private System.Windows.Forms.Label label1;
     }
 }

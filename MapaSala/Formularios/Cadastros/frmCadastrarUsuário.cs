@@ -16,5 +16,15 @@ namespace MapaSala.Formularios.Cadastros
         {
             InitializeComponent();
         }
+        private void btnCadastrar_Click(object sender, EventArgs e)
+        {
+            Usuarios u = new Usuarios();
+            u.Login = txtLogin.Text;
+            u.Senha = txtSenha.Text;
+            u.Ativo = chkAtivo.Checked;
+            u.Inserir();
+            MessageBox.Show("Sucesso", "Cadastrado com sucesso");
+            Close();
+        }
     }
 }
