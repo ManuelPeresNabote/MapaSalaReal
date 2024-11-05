@@ -20,8 +20,8 @@ namespace MapaSala.Classes
         public void Inserir()
         {
             Conexao.Open();
-            string query = "insert into Usuários (Login, Senha, Ativo)" +
-                "Values(@login, @senha, @ativo)";
+            string query = "insert into Usuarios (Login, Senha, Ativo)" +
+                " Values(@login, @senha, @ativo)";
 
             SqlCommand comando = new SqlCommand(query, Conexao);
 

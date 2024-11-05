@@ -55,6 +55,7 @@
             this.txtPesquisar.Name = "txtPesquisar";
             this.txtPesquisar.Size = new System.Drawing.Size(482, 20);
             this.txtPesquisar.TabIndex = 3;
+            this.txtPesquisar.TextChanged += new System.EventHandler(this.txtPesquisar_TextChanged_1);
             // 
             // bntNovo
             // 
@@ -77,12 +78,14 @@
             // 
             // dtUsuarios
             // 
+            this.dtUsuarios.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtUsuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtUsuarios.Location = new System.Drawing.Point(12, 86);
             this.dtUsuarios.Name = "dtUsuarios";
             this.dtUsuarios.Size = new System.Drawing.Size(776, 352);
             this.dtUsuarios.TabIndex = 2;
             this.dtUsuarios.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtUsuarios_CellContentClick);
+            this.dtUsuarios.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtUsuarios_CellDoubleClick_1);
             // 
             // frmUsuarios
             // 

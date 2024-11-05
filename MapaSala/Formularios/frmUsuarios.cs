@@ -43,6 +43,16 @@ namespace MapaSala.Formularios
 
         private void dtUsuarios_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
+           
+        }
+
+        private void dtUsuarios_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void dtUsuarios_CellDoubleClick_1(object sender, DataGridViewCellEventArgs e)
+        {
             if (e.RowIndex >= 0)
             {
                 int id = Convert.ToInt32(
@@ -56,9 +66,10 @@ namespace MapaSala.Formularios
             }
         }
 
-        private void dtUsuarios_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void txtPesquisar_TextChanged_1(object sender, EventArgs e)
         {
-
+            Usuarios u = new Usuarios();
+            dtUsuarios.DataSource = u.Pesquisar(txtPesquisar.Text);
         }
     }
 }
