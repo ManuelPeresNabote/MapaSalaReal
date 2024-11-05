@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MapaSala.Classes;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,7 +17,7 @@ namespace MapaSala.Formularios.Cadastros
         {
             InitializeComponent();
         }
-        private void btnCadastrar_Click(object sender, EventArgs e)
+        private void bntCadastrar_Click(object sender, EventArgs e)
         {
             Usuarios u = new Usuarios();
             u.Login = txtLogin.Text;

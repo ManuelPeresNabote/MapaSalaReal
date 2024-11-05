@@ -19,6 +19,7 @@ namespace MapaSala.Formularios.Editar
         {
             InitializeComponent();
             string query = "select Id, Nome,Sigla,Ativo +from Disciplinas where Id=@id";
+            Conexao = new SqlConnection(LinhaConexao);
             Conexao.Open();
             SqlCommand Comando = new SqlCommand(query, Conexao);
             Comando.Parameters.Add(new SqlParameter("@id", DisciplinaId));

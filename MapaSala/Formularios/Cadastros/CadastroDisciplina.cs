@@ -52,17 +52,6 @@ namespace MapaSala.Formularios.Cadastros
                 MessageBox.Show("Erro ao atualizar", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
-        private void bntExcluir_Click(object sender, EventArgs e)
-        {
-            LimparCampos();
-        }
-        private void LimparCampos()
-        {
-            txtNomeDisciplina.Text = "";
-            txtSigla.Text = "";
-            chkAtivo.Checked = false;
-        }
     }
 }
 
